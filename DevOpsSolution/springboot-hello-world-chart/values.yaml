@@ -13,3 +13,5 @@ service:
 ingress:
   enabled: true
   host: hello-world.example.com
+
+#ClusterIP tipinde seçtim servisi çünkü dış dünyaya açmak istiyorum ve bunu da ingress enabled:true verek aslında trafiğin clustera inip oradan da ilgili servise gitmesini oradan da user'e response dönmesini sağlamış oluyoruz.
