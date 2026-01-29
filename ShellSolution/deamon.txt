@@ -1,0 +1,4 @@
+nohup /path/to/hello.sh >/tmp/hello.log 2>&1 &
+
+--nohup yazmamın sebebi terminali kapatsam da process devam etsin diye
+sh /tmp/deamon.txt diyerek scripti başlatabiliriz

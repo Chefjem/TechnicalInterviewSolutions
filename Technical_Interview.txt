@@ -1,0 +1,53 @@
+----------------------------------------------MONGO---------------------------------------------------------
+
+Imagine a mongo collection which has gsm,password and insert_date columns. gsm can be null or equals a number.insert_date and password are default exists.
+
+Write a mongo query for getting records insert_date which grater than April 1 for exists gsms.//Please send query.
+
+Example records;
+
+gsm:5422322323
+password:123456
+insert_date:2022-03-11T14:16:30.228+00:00
+
+
+----------------------------------------------ORACLE--------------------------------------------------------
+
+
+Imagine an oracle table which has id and order_id columns. Table have same order_id with different id's.
+
+Example;
+
+      ORDER_ID                ID
+623cdc7ff2f3603b06a283ff    8112686  
+623cdc7ff2f3603b06a283ff    8116869
+623cdc7ff2f3603b06a28400    8117671
+623ce4068c47be1532c4c53c    8118392
+
+
+Write a select for group same order_ids, and show in one line which seperated with comma; //Please send sql.
+
+Select result should be like that;
+
+ORDER_ID                    ID
+623cdc7ff2f3603b06a283ff    8112686 , 8116869
+623cdc7ff2f3603b06a28400    8117671
+623ce4068c47be1532c4c53c    8118392
+
+
+----------------------------------------------SHELL SCRIPTING----------------------------------------------
+
+
+1-Write a shell script which write "Hello world" for every 10 seconds into a temp file (hello.txt) //Please send sh.
+2-Run sh as a daemon process. //Please send command.
+3-Write another shell script to check the count of records in hello.txt, if total count is equal 10 then kill the first sh, delete the temp file and run first sh again.//Please send sh.
+4-Second sh should be proper for scheduled in crontab.
+
+----------------------------------------------DEVOPS-------------------------------------------------------
+
+Build a simple Springboot "Hello World" project with kubernetes and ingress. 
+
+- Open the project to internet and please share the url.
+- Create and push everything to GitHub repository //Please share the repository link.
+- Short explanation about what/why you did
+- Use Jenkins for all CI/CD part 
